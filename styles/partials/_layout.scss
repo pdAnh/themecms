@@ -1,0 +1,27 @@
+.layout {
+    background-color: $color-white;
+    .ant-layout-header {
+        background-color: $color-white;
+        .logo {
+            font-size: 25px;
+            font-weight: 700;
+            color: $palete-dark;
+            float: left;
+        }
+        .menu {
+            line-height: 62px
+        }
+        .right-menu {
+            float: right
+        }
+        .btn-signup {
+            background-color: $color-green-4;
+            color: $color-white;
+            height: 44px;
+            width: 120px;
+            &:hover {
+                background-color: $color-green-5;
+            }
+        }
+    }
+}
